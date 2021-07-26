@@ -1,0 +1,44 @@
+/* universal variables for site  */
+
+:root {
+    --primary-color:#def0fd;
+    --secondary-color: #0999ff;
+    --action-color: #a172c3;
+    --focus-color: #a7a7a7ac;
+    --light: #E5E5E5;
+    --black: #040514;
+    --white: #fff;
+    --shadow: #04051446;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+#userList {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#list {
+   
+    background-color: var(--white);
+    padding: 10px;
+    box-shadow: 1px 1px 10px .5px var(--shadow);
+    width: 400px;
+    
+
+}
+
+.user {
+    padding: 10px 5px;
+    
+}
+.user:hover {
+    background-color: var(--focus-color);
+    
+}
