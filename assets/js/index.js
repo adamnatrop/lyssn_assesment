@@ -12,7 +12,7 @@ userData = [
 
 function renderUserList() {
 
-    userList = document.createElement('div');
+    let userList = document.createElement('div');
     userList.setAttribute("id", 'list')
     listContainer.appendChild(userList);
 
